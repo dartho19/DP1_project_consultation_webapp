@@ -1,0 +1,24 @@
+<!-- login template 
+
+to be injected by controller in the main template if required.
+
+ -->
+<h3>Login</h3>
+<br>
+
+<form id="loginForm" action="/" method="POST">
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input required id="email" type="email" name="email" class="form-control" placeholder="Email">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input required id="password" type="password" name="password" class="form-control" placeholder="Password">
+    </div>
+
+    <button id="registerButton" type="submit" class="btn btn-primary">Register</button>
+    <button id="signinButton" type="submit" class="btn btn-success">Sign In</button>
+</form>
+
+<script src="src/app/controller/login.js"></script>

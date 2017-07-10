@@ -1,0 +1,34 @@
+<!--template-->
+<h3>Benvenuto!</h3>
+<br>
+
+<div>
+    <label for="userRequestedMin">You have requested: </label>
+    <span id="userRequestedMin" class="my-user-min"></span>
+    <label for="userAllowedMin">You have been allowed for: </label>
+    <span id="userAllowedMin" class="my-user-min"></span>
+</div>
+
+<br>
+
+<form id="adminForm" action="/" method="POST">
+    <div class="form-group">
+        <label for="bookMin">Book a consultation:</label>
+        <input required id="bookMin" type="number" name="min_requested" class="form-control" placeholder="number of minutes, from 0 to 180" min="0" max="180" step="1">
+    </div>
+    <div>
+        <button id="deleteBookingButton" type="button" class="btn btn-warning" onclick="deleteBookingCallback()">Delete Booking</button>
+        <button id="sendBookingButton" type="submit" class="btn btn-success">Send Request!</button>
+    </div>
+    <div>
+        <button id="logoutButton" type="button" class="btn btn-danger my-button-logout" onclick="logoutCallback()">Logout</button>
+    </div>
+</form>
+
+<hr style="border-style: dashed; margin-top: 15px; border-width: 1px; border-color: rgba(0, 0, 0, .14);">
+
+<div>
+    <p id="response" class="my-response"></p>
+</div>
+
+<script src="src/app/controller/admin.js"></script>

@@ -1,0 +1,38 @@
+<!-- consultation template 
+
+to be injected by controller in the main template if required.
+
+ -->
+<h3 class="my-consultation-title">Consultation Info</h3>
+
+<div class="my-consultation-info">
+
+    <label for="consultationSummary">Summary:</label>
+    <table id="consultationSummary" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Total time</th>
+                <th>Still available</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>180 min</td>
+                <td id="timeLeft"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="consultationInfo">List of granted consultations starting from 14:00</label>
+    <table id="consultationInfo" class="table table-striped">
+        <thead>
+            <th>Email</th>
+            <th>Requested Time</th>
+            <th>Granted Time</th>
+            <th>Start Time</th>
+        </thead>
+        <tbody id="userInfo">
+            <!-- here will be injected all the users info retrieved from backend as JSON -->
+        </tbody>
+    </table>
+</div>

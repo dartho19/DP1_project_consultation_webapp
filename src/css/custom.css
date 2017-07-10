@@ -1,0 +1,135 @@
+#content {
+    /*posizione*/
+    border-left: #4DB6AC;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+}
+
+.separator {
+    border-top: 2px solid #4DB6AC !important;
+}
+
+
+/**********************************************************************************/
+
+
+/****************************+     Bootstrap Rewrite     +*************************/
+
+.container {
+    background-color: #fafafa !important;
+}
+
+.btn {
+    border-radius: 0px;
+    border-width: 0px;
+    width: 49.2%;
+    padding: 6px 6px;
+}
+
+
+/**********************************************************************************/
+
+
+/****************************+     My Custom Classes     +*************************/
+
+.my-header {
+    background-image: url('../../img/header-bg-small.png');
+    height: 250px;
+    position: relative;
+    margin-bottom: 2%;
+    margin-top: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, .14);
+}
+
+.my-title {
+    color: #ECEFF1;
+    margin: 30px;
+    font-size: 600%;
+}
+
+.my-sub-title {
+    color: #546E7A;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 30px;
+    font-size: 135%;
+}
+
+.my-main-content {
+    margin-left: 2%;
+    width: 73%;
+    min-height: 300px;
+    border: rgba(0, 0, 0, .14);
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    background-color: #fefefe;
+}
+
+.my-left-menu {
+    background-color: #ecf4ff;
+    padding-bottom: 15px;
+    border: rgba(0, 0, 0, .14);
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    min-height: 350px;
+    min-width: 292px;
+}
+
+.my-user-min {
+    font-size: 24px; /*la stessa di h3 in bootstrap*/
+    text-align: center;
+    display: block;
+}
+
+.my-button-logout {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.my-response {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 5px 5px 5px;
+}
+
+.my-response-text-ok {
+    color: #5cb85c !important;
+}
+
+.my-response-text-ko {
+    color: #c9302c !important;
+}
+
+.my-bid-info {
+    padding-left: 35px;
+}
+
+.my-consultation-title {
+    text-align: center;
+    background-color: #ecf4ff;
+    margin: 25px 15px 15px 15px;
+    padding: 10px;
+    color: #6286a7;
+    font-weight: bold;
+}
+
+.my-consultation-info {
+    margin-left: 15px;
+}
+
+.my-footer {
+    margin-top: 2%;
+    border: rgba(0, 0, 0, .14);
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    padding: 15px;
+    position: relative;
+}
+
+.my-bitbucket-logo {
+    position: absolute;
+    width: 120px;
+    left: 445px;
+    top: 4px;
+}
