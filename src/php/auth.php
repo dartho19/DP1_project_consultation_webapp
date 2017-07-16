@@ -6,14 +6,14 @@
 
 
 //error reporting for DEBUG -> to be removed in production
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+//error_reporting(E_ALL);
+//ini_set("display_errors", 1);
 
 /************
  * Includes
  ***********/
 //verify if the script has been requested over https, if not do a self-redirect thour https
-//include 'utilities/checkSSL.php';
+include 'utilities/checkSSL.php';
 
 //include the database utilities functions
 include 'utilities/db_utilities.php';
